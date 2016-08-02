@@ -23,50 +23,104 @@ public class Ride {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "ride_id")
-    @Setter
-    @Getter
     private Long id;
 
     @Column(name = "city_from")
-    @Setter
-    @Getter
     private String cityFrom;
 
     @Column(name = "city_to")
-    @Setter
-    @Getter
     private String cityTo;
 
     @Column(name = "ride_date")
-    @Setter
-    @Getter
     private Timestamp rideDate;
 
     @OneToOne
     @JoinColumn(name = "driver_id")
-    @Setter
-    @Getter
     private User driver;
 
     @Column(name = "seats")
-    @Setter
-    @Getter
     private int seats;
 
     @Column(name = "price")
-    @Setter
-    @Getter
     private BigInteger price;
 
     @Column(name = "description")
-    @Setter
-    @Getter
     private String description;
 
     @ManyToMany(fetch=FetchType.EAGER)
     @JoinTable(name = "user_ride", joinColumns = { @JoinColumn(name = "ride_id") }, inverseJoinColumns = { @JoinColumn(name = "user_id") })
-    @Setter
-    @Getter
     private List<User> passangerList;
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getCityFrom() {
+        return cityFrom;
+    }
+
+    public void setCityFrom(String cityFrom) {
+        this.cityFrom = cityFrom;
+    }
+
+    public String getCityTo() {
+        return cityTo;
+    }
+
+    public void setCityTo(String cityTo) {
+        this.cityTo = cityTo;
+    }
+
+    public Timestamp getRideDate() {
+        return rideDate;
+    }
+
+    public void setRideDate(Timestamp rideDate) {
+        this.rideDate = rideDate;
+    }
+
+    public User getDriver() {
+        return driver;
+    }
+
+    public void setDriver(User driver) {
+        this.driver = driver;
+    }
+
+    public int getSeats() {
+        return seats;
+    }
+
+    public void setSeats(int seats) {
+        this.seats = seats;
+    }
+
+    public BigInteger getPrice() {
+        return price;
+    }
+
+    public void setPrice(BigInteger price) {
+        this.price = price;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public List<User> getPassangerList() {
+        return passangerList;
+    }
+
+    public void setPassangerList(List<User> passangerList) {
+        this.passangerList = passangerList;
+    }
 }
 
