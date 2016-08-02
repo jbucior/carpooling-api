@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "carazem-36e8d",
+  "private_key_id": "40b97833afe556a0067bef744b6b39bcc7d2bba0",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCqUBjh6hQTzwXn\n6rlTE9DT60GKdUaGzi0/zvoMSBoL6YRng2ATDsOSLZYjHS/2f0Sxzv7VnBaL4G0o\nRdsRk2+t8WbcH+7fV402Nh9/5g7op3zotPUqIvWjxYHVfDOAdwc/tMp6WotebJPS\nG7BRzQEZzWHpccYtghGjWNjYPZDA22gMMKgwWszo92/ersay2Ju5Rm/r6NehS5/9\nTayLOPQqNSnt0oL5//BiOhlJm5FSVTitZY0r2aCtzsn8YYiFn9RF5cu49PzTZbXd\nRBLzt/LcrLlcAWLnudFL85llV+OHDk52UwcdoZQnjpgbYsV0u6bOyFV8XefqHDuT\nBA4YA2GnAgMBAAECggEBAJAywN6GEfmzjoyNb9unK2hCB3vzT4NTjXw5AfzkDymG\nzVPXJ8D6/xsE/dk9HR7XIpJpb9nsDirgGYu/mXuIGUZs3WoCn3z549XCfWkMoBLb\nvCZLEEhc0R2YXBUk03YxUTHfII/3mYiY5Y8/YkngCM6P1haQ/foJ5mUnFHIBrk2a\nFSfTd6C2haHnwHS/RfOUizGRESFeAGF6MO8PV/RhEEaRPivWyDvl9M+xXxXGcAIh\nmqiKFRVqSLcQ4H0RPWyc10g+JhJWKsssXFpEjuFNqinGIwzoSBg/k90CuAp5Vppy\nlmiAk+SeAFB+mtqWQ3tOuU1VfG/pgg0OzadQSJ2O5AECgYEA0bckmnbrbaEVbH0G\nDTYfRIp2NvRnlMjT/l5FmybCatMfY4KSTfKGwDmKxWi84NwBj2NhsUI381+wQZC1\nGT2Dvhq3DxI3Xae9hc85nOBi+Slpg88DXL/qA9Tm+cXqSZqjaQf0kmJGQoRAwEbu\nMvCLoT33hfmnBOoFChwMhj8R+KkCgYEAz+a5O4vAGXvvu3/HKXShIk0YjS6Az2Wh\nxSigZTtz24m3j86pFVlYe8vLKZ8lhxWxIR9Tl9re9E/F18i/8q/sh61MWHp3p9/1\n9PhVkMU/qbimXHBMeCCwmHrInTMhkGIwNQeCM04r57djMqg7vdcTI0I0kS76RfWt\nqIEpzQZOac8CgYEAlkktlPgFrPGT/cP2sz8G10J2htlM5WWp7g62yQHUr2MOimxG\n1k8n29cgqGlveaCQCaaJmtK+b80x7Tp7XVQk9fYFG2rNfHM5sQuY2OBAbRgNQmT2\nnt/1HrvSrknzpL2JvznxPXnpqb9G+8OY7a5OEcXrfPo0g6QE6oLBQu8tvMkCgYEA\nzGsJIMJ1fNk+y/aEpn9V3Hs/s7nQz5wXptsecss1TNypj43c9O/nr7mfJmqkJKGw\ni2fY8swzQreZSWXLTl2qTXGZSroIIxl0Jo1y3KkFwuSbNvL4TXmfCh5YWTEoRGY3\nDj02ySmIxAquT+XY7/2khJuZQlOVo+o/+RofNseHnEMCgYA9m3IghZN8FW6Gb74O\nV1+0fEPoNeagdVKNuY9sPfXeHyENCICvSBJ3bc9mus+rC/yTzgoZHCb+wBqgOirC\nngPAYiHvGVhKy8WHSIVSnhJAp9NsWZRBwsqaG/wkoOhys7xcBLzXt01Y6crr2vHR\nBhjgykw+2NM6XisDNua/p+Je2A==\n-----END PRIVATE KEY-----\n",
+  "client_email": "auth-carazem@carazem-36e8d.iam.gserviceaccount.com",
+  "client_id": "111543059344645309453",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/auth-carazem%40carazem-36e8d.iam.gserviceaccount.com"
+}
