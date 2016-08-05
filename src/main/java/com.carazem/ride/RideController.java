@@ -26,6 +26,11 @@ public class RideController {
     @Autowired
     private RideValidator rideValidator;
 
+    @RequestMapping(value="test", method = GET)
+    public void test() {
+
+    }
+    
     @RequestMapping(method = GET)
     public List<SearchResponseDto> search(SearchRequestDto searchRequestDto, Pageable pageable) {
         return rideService.searchRides(searchRequestDto, pageable);
